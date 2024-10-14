@@ -15,7 +15,7 @@
   "scripts": {
     "resolve": "library resolve",
     "build": "tstl",
-    "lint": "deno check ./src",
+    "lint": "deno lint --rules-tags=recommended",
     "fmt": "deno fmt",
     "dev": "tstl --watch"
   },
@@ -24,11 +24,9 @@
     "@ts-defold/tstl-userdata-sugar": "^1.0.1",
     "@ts-defold/types": "^1.2.51",
     "@typescript-to-lua/language-extensions": "^1.19.0",
-    "eslint": "^9.0.0",
     "tstl-export-to-global": "^1.0.1",
     "tstl-trim-extensions": "^1.0.3",
     "typescript": "5.5.2",
-    "typescript-eslint": "^8.0.0",
     "typescript-to-lua": "~1.26.0",
     "typescript-tstl-plugin": "^0.3.2"
   }
