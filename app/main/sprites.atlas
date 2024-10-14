@@ -1,0 +1,7 @@
+images {
+  image: "/assets/ts-defold.jpg"
+}
+images {
+  image: "/assets/lua-ring.png"
+}
+extrude_borders: 2

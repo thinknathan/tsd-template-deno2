@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+	"compilerOptions": {
+		"target": "es2019",
+		"lib": ["es2019"],
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"types": ["@typescript-to-lua/language-extensions", "@ts-defold/types"],
+
+		"rootDir": "src",
+		"outDir": "app",
+		"strict": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"sourceMap": true,
+
+		"plugins": [{ "name": "typescript-tstl-plugin" }]
+	},
+	"exclude": ["./node_modules/*"],
+	"tstl": {
+		"luaTarget": "5.1",
+		"luaLibImport": "require",
+		"sourceMapTraceback": true,
+		"luaPlugins": [
+			{
+				"match": ".*\\..*script.ts$",
+				"name": "tstl-export-to-global"
+			},
+			{
+				"name": "@ts-defold/tstl-userdata-sugar"
+			},
+			{
+				"name": "tstl-trim-extensions"
+			}
+		]
+	}
+}

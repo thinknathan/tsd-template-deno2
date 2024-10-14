@@ -1,0 +1,23 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 800
+height = 800
+update_frequency = 60
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = tsd-template
+dependencies#0 = https://github.com/ts-defold/defold-lldebugger/archive/extension.zip
+
+[render]
+clear_color_red = 0.19
+clear_color_green = 0.47
+clear_color_blue = 0.78
+
