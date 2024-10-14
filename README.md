@@ -4,15 +4,14 @@
 
 A dev environment for [Defold](https://defold.com/) that transpiles TypeScript
 into lua using
-[TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
+[TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) 
+and [Deno](https://deno.com/).
 
 ## Features
 
 - Full Lua and Defold API type definitions for TypeScript auto-complete and type
   checking
 - Library of types for Defold extensions via `deno run resolve`
-- Eslint config for handling the caveats of TypeScriptToLua and keeping your
-  code correct
 - Handles script, gui_script, and module exports using familiar ES6 export
   syntax
 - Full BoilerPlate game project ready to transpile and go
