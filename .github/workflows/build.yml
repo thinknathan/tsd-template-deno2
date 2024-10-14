@@ -10,25 +10,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: denoland/setup-deno@v2
         with:
-          node-version: 'lts/*'
+        deno-version: v2.x
 
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: "temurin"
+          java-version: "17"
 
       - name: Setup Defold
         uses: dapetcu21/setup-defold@v3.0.3
 
       - name: Install Dependencies
-        run: npm install
+        run: deno install
 
-      - name: Genrate lua w/ ts-defold
-        run: npm run build
+      - name: Generate lua w/ ts-defold
+        run: deno run build
 
       - name: Build
-        run: 'java -jar $BOB --root ./app --archive --platform js-web --verbose resolve distclean build bundle'
+        run: "java -jar $BOB --root ./app --archive --platform js-web --verbose resolve distclean build bundle"

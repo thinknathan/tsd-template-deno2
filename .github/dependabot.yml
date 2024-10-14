@@ -1,12 +1,12 @@
 version: 2
 updates:
   - package-ecosystem: github-actions
-    directory: '/'
+    directory: "/"
     schedule:
       interval: monthly
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "deno"
+    directory: "/"
     schedule:
-      interval: 'daily'
+      interval: "monthly"
     allow:
-      - dependency-name: '@ts-defold*'
+      - dependency-name: "@ts-defold*"
