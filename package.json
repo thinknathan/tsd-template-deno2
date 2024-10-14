@@ -15,8 +15,8 @@
   "scripts": {
     "resolve": "library resolve",
     "build": "tstl",
-    "lint": "deno lint --rules-tags=recommended",
-    "fmt": "deno fmt",
+    "lint": "deno lint ./src --rules-tags=recommended",
+    "fmt": "deno fmt ./",
     "dev": "tstl --watch"
   },
   "devDependencies": {

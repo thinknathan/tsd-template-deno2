@@ -1,7 +1,5 @@
 {
-  "editor.insertSpaces": false,
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
+  "editor.detectIndentation": true,
   "files.associations": {
     "*.script": "lua",
     "*.gui_script": "lua",
@@ -39,9 +37,8 @@
     "*.tilemap": "textproto",
     "*.tilesource": "textproto"
   },
-  "files.exclude": {
-    "node_modules/": true,
-    "patches/": true
+  "search.exclude": {
+    "node_modules/": true
   },
   "typescript.tsdk": "node_modules\\typescript\\lib"
 }
