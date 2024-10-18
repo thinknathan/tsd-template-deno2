@@ -1,3 +1,5 @@
+<img src="_docs/banner.png" alt="Template Deno2">
+
 # Defold TypeScript Template (minimal - Deno 2.x version)
 
 <a href="https://discord.gg/eukcq5m"><img alt="Chat with us!" src="https://img.shields.io/discord/766898804896038942.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
