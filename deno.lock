@@ -1,40 +1,40 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:@ts-defold/library@~0.1.1": "0.1.3_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2",
-    "npm:@ts-defold/tstl-userdata-sugar@^1.0.1": "1.0.1_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2",
-    "npm:@ts-defold/types@^1.2.51": "1.2.51_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2",
+    "npm:@ts-defold/library@~0.1.1": "0.1.3_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2",
+    "npm:@ts-defold/tstl-userdata-sugar@^1.0.1": "1.0.1_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2",
+    "npm:@ts-defold/types@^1.2.51": "1.2.56_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2",
     "npm:@typescript-to-lua/language-extensions@^1.19.0": "1.19.0",
-    "npm:tstl-export-to-global@^1.0.1": "1.0.1_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2",
-    "npm:tstl-trim-extensions@^1.0.3": "1.0.4_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2",
-    "npm:typescript-to-lua@1.26": "1.26.2_typescript@5.5.2",
+    "npm:tstl-export-to-global@^1.0.1": "1.0.1_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2",
+    "npm:tstl-trim-extensions@^1.0.3": "1.0.4_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2",
+    "npm:typescript-to-lua@1.28": "1.28.1_typescript@5.7.2",
     "npm:typescript-tstl-plugin@~0.3.2": "0.3.2",
-    "npm:typescript@5.5.2": "5.5.2"
+    "npm:typescript@5.7.2": "5.7.2"
   },
   "npm": {
-    "@ts-defold/library@0.1.3_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2": {
+    "@ts-defold/library@0.1.3_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2": {
       "integrity": "sha512-aNEKLJSktghVyOcZBe4XhkyDo5NXsX3yZU1ksF3RqKYRyzsORYwrFknxzAQVS4GzCOIng0maePjgfHqm8Gb1yA==",
       "dependencies": [
         "adm-zip",
         "await-to-js",
         "node-fetch",
         "semver",
-        "typescript-to-lua@1.26.2_typescript@5.5.2",
+        "typescript-to-lua@1.28.1_typescript@5.7.2",
         "xml2js",
         "yargs"
       ]
     },
-    "@ts-defold/tstl-userdata-sugar@1.0.1_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2": {
+    "@ts-defold/tstl-userdata-sugar@1.0.1_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2": {
       "integrity": "sha512-iEBt+EpMOvBnpr1/fwUMirVGUqUAE9yFIuzi4ir7BOJvQEEtqAgTvyco2RIms9D7OzEL2jqBSzt3NjoD7zdKpQ==",
       "dependencies": [
-        "typescript-to-lua@1.26.2_typescript@5.5.2"
+        "typescript-to-lua@1.28.1_typescript@5.7.2"
       ]
     },
-    "@ts-defold/types@1.2.51_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2": {
-      "integrity": "sha512-ZuntEleKAWRKTaMWWWJZQ4MWV9/Wlc2i11QYothp2PUN9ZI/BghIodHofzJ+8GiMnEx097rEtY3m14GA05n2ug==",
+    "@ts-defold/types@1.2.56_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2": {
+      "integrity": "sha512-4z621188JK1hvolHyZZ4GTExnwa/BFJ1HZKmJg1+9POpzQfXbvIoVUx8GRDcvf6eOTYpeItHZy9UDWGa6UwXVg==",
       "dependencies": [
         "lua-types",
-        "typescript-to-lua@1.26.2_typescript@5.5.2"
+        "typescript-to-lua@1.28.1_typescript@5.7.2"
       ]
     },
     "@typescript-to-lua/language-extensions@1.19.0": {
@@ -75,8 +75,8 @@
     "emoji-regex@8.0.0": {
       "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
     },
-    "enhanced-resolve@5.17.1": {
-      "integrity": "sha512-LMHl3dXhTcfv8gM4kEzIUeTQ+7fpdA0l2tUf34BddXPkz2A5xJ5L/Pchd5BL6rdccM9QGvu0sWZzK1Z1t4wwyg==",
+    "enhanced-resolve@5.8.2": {
+      "integrity": "sha512-F27oB3WuHDzvR2DOGNTaYy0D5o0cnrv8TeI482VM4kYgQd/FT9lUQwuNsJ0oOHtBUq7eiW5ytqzp7nBFknL+GA==",
       "dependencies": [
         "graceful-fs",
         "tapable"
@@ -207,16 +207,16 @@
     "tslib@1.14.1": {
       "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
     },
-    "tstl-export-to-global@1.0.1_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2": {
+    "tstl-export-to-global@1.0.1_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2": {
       "integrity": "sha512-2oNYbiCHuyxGRHi930oGh1IHyDlLsA4DhYsS+FO/YXu11l4J+UPuQ9NZL19lLOluSuKyCWe2PlmBE2k0+3mDpQ==",
       "dependencies": [
-        "typescript-to-lua@1.26.2_typescript@5.5.2"
+        "typescript-to-lua@1.28.1_typescript@5.7.2"
       ]
     },
-    "tstl-trim-extensions@1.0.4_typescript-to-lua@1.26.2__typescript@5.5.2_typescript@5.5.2": {
+    "tstl-trim-extensions@1.0.4_typescript-to-lua@1.28.1__typescript@5.7.2_typescript@5.7.2": {
       "integrity": "sha512-z72H57fPzzTMAjWbCTH/R3LjrT9iJUaPMqPY+sAts7i/oIR6SpptWGa8VK6t9NpKNvRku1SKbDW5/NNcoN5+Qw==",
       "dependencies": [
-        "typescript-to-lua@1.26.2_typescript@5.5.2"
+        "typescript-to-lua@1.28.1_typescript@5.7.2"
       ]
     },
     "typescript-to-lua@0.36.1": {
@@ -227,8 +227,8 @@
         "typescript"
       ]
     },
-    "typescript-to-lua@1.26.2_typescript@5.5.2": {
-      "integrity": "sha512-nmlYhi0mlXOKK5q3GumstC/fk30xPSILQTK5GHcTovSiCzSovLUq0F6NNBnSMskmw9ENjUwdMtHUl2IpfeiGrw==",
+    "typescript-to-lua@1.28.1_typescript@5.7.2": {
+      "integrity": "sha512-4Ah8bco9X7BNrDcVUHEDDWbZL2whoUg8CCLnUJWsoopmV43aDZuEqOlhtsWAjsH+3Wq5SugYcmyFRrZ+mWyCYw==",
       "dependencies": [
         "@typescript-to-lua/language-extensions",
         "enhanced-resolve",
@@ -248,8 +248,8 @@
         "typescript-to-lua@0.36.1"
       ]
     },
-    "typescript@5.5.2": {
-      "integrity": "sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew=="
+    "typescript@5.7.2": {
+      "integrity": "sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg=="
     },
     "webidl-conversions@3.0.1": {
       "integrity": "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
@@ -307,9 +307,9 @@
         "npm:@typescript-to-lua/language-extensions@^1.19.0",
         "npm:tstl-export-to-global@^1.0.1",
         "npm:tstl-trim-extensions@^1.0.3",
-        "npm:typescript-to-lua@1.26",
+        "npm:typescript-to-lua@1.28",
         "npm:typescript-tstl-plugin@~0.3.2",
-        "npm:typescript@5.5.2"
+        "npm:typescript@5.7.2"
       ]
     }
   }
