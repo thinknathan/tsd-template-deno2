@@ -6,6 +6,6 @@
  * @see {@link https://github.com/ts-defold/defold-lldebugger|Github Source}
  * @noResolution
  */
-declare module "lldebugger.debug" {
-  export function start(): void;
+declare module 'lldebugger.debug' {
+	export function start(): void;
 }

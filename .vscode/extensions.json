@@ -1,9 +1,9 @@
 {
-  "recommendations": [
-    "denoland.vscode-deno",
-    "tomblind.local-lua-debugger-vscode",
-    "typescript-to-lua.vscode-typescript-to-lua",
-    "thejustinwalsh.textproto-grammer",
-    "ts-defold.defold-vscode-build"
-  ]
+	"recommendations": [
+		"denoland.vscode-deno",
+		"tomblind.local-lua-debugger-vscode",
+		"typescript-to-lua.vscode-typescript-to-lua",
+		"thejustinwalsh.textproto-grammer",
+		"ts-defold.defold-vscode-build"
+	]
 }
