@@ -1,0 +1,16 @@
+{
+	"nodeModulesDir": "auto",
+	"lint": {
+		"include": ["src/"],
+		"rules": {
+			"tags": ["recommended"],
+			"include": ["eqeqeq"],
+			"exclude": ["triple-slash-reference"]
+		}
+	},
+	"fmt": {
+		"useTabs": true,
+		"semiColons": true,
+		"singleQuote": true
+	}
+}
