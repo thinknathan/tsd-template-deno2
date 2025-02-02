@@ -27,7 +27,7 @@
 		"tstl-export-to-global": "^1.0.1",
 		"tstl-trim-extensions": "^1.0.3",
 		"typescript": "5.7.2",
-		"typescript-to-lua": "~1.29.0",
+		"typescript-to-lua": "~1.30.0",
 		"typescript-tstl-plugin": "^0.3.2"
 	}
 }
