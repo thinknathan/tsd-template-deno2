@@ -5,12 +5,27 @@
 		"rules": {
 			"tags": ["recommended"],
 			"include": ["eqeqeq"],
-			"exclude": ["triple-slash-reference"]
+			"exclude": ["triple-slash-reference", "no-sloppy-imports"]
 		}
 	},
 	"fmt": {
 		"useTabs": true,
 		"semiColons": true,
 		"singleQuote": true
-	}
+	},
+	"compilerOptions": {
+		"lib": [
+			"es2019"
+		],
+		"types": [
+			"@typescript-to-lua/language-extensions",
+			"@ts-defold/types"
+		],
+		"strict": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false
+	},
+	"unstable": [
+		"sloppy-imports"
+	]
 }
