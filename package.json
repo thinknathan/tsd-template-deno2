@@ -22,12 +22,12 @@
 	"devDependencies": {
 		"@ts-defold/library": "^0.1.1",
 		"@ts-defold/tstl-userdata-sugar": "^1.0.1",
-		"@ts-defold/types": "^1.2.51",
+		"@ts-defold/types": "^1.2.68",
 		"@typescript-to-lua/language-extensions": "^1.19.0",
 		"tstl-export-to-global": "^1.0.1",
 		"tstl-trim-extensions": "^1.0.3",
 		"typescript": "5.8.2",
-		"typescript-to-lua": "~1.31.0",
+		"typescript-to-lua": "^1.31.2",
 		"typescript-tstl-plugin": "^0.3.2"
 	}
 }
