@@ -1,43 +1,42 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@ts-defold/library@~0.1.1": "0.1.3_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2",
-    "npm:@ts-defold/tstl-userdata-sugar@^1.0.1": "1.0.1_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2",
-    "npm:@ts-defold/types@^1.2.68": "1.2.68_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2",
+    "npm:@ts-defold/library@~0.1.1": "0.1.3_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2",
+    "npm:@ts-defold/tstl-userdata-sugar@^1.0.1": "1.0.1_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2",
+    "npm:@ts-defold/types@^1.2.74": "1.2.74_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2",
     "npm:@typescript-to-lua/language-extensions@^1.19.0": "1.19.0",
-    "npm:tstl-export-to-global@^1.0.1": "1.0.1_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2",
-    "npm:tstl-trim-extensions@^1.0.3": "1.0.4_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2",
-    "npm:typescript-to-lua@1.31.2": "1.31.2_typescript@5.7.2",
-    "npm:typescript-to-lua@^1.31.2": "1.31.2_typescript@5.7.2",
+    "npm:tstl-export-to-global@^1.0.1": "1.0.1_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2",
+    "npm:tstl-trim-extensions@^1.0.3": "1.0.4_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2",
+    "npm:typescript-to-lua@1.32": "1.32.0_typescript@5.8.2",
+    "npm:typescript-to-lua@1.32.0": "1.32.0_typescript@5.8.2",
     "npm:typescript-tstl-plugin@~0.3.2": "0.3.2",
-    "npm:typescript@5.7.2": "5.7.2",
     "npm:typescript@5.8.2": "5.8.2"
   },
   "npm": {
-    "@ts-defold/library@0.1.3_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2": {
+    "@ts-defold/library@0.1.3_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2": {
       "integrity": "sha512-aNEKLJSktghVyOcZBe4XhkyDo5NXsX3yZU1ksF3RqKYRyzsORYwrFknxzAQVS4GzCOIng0maePjgfHqm8Gb1yA==",
       "dependencies": [
         "adm-zip",
         "await-to-js",
         "node-fetch",
         "semver",
-        "typescript-to-lua@1.31.2_typescript@5.7.2",
+        "typescript-to-lua@1.32.0_typescript@5.8.2",
         "xml2js",
         "yargs"
       ],
       "bin": true
     },
-    "@ts-defold/tstl-userdata-sugar@1.0.1_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2": {
+    "@ts-defold/tstl-userdata-sugar@1.0.1_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2": {
       "integrity": "sha512-iEBt+EpMOvBnpr1/fwUMirVGUqUAE9yFIuzi4ir7BOJvQEEtqAgTvyco2RIms9D7OzEL2jqBSzt3NjoD7zdKpQ==",
       "dependencies": [
-        "typescript-to-lua@1.31.2_typescript@5.7.2"
+        "typescript-to-lua@1.32.0_typescript@5.8.2"
       ]
     },
-    "@ts-defold/types@1.2.68_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2": {
-      "integrity": "sha512-Vu6lvlErnLZxY1BSsu755wrhKJw6yb0Gq5teL8CyBTiahPmjuY7XwZyIbsjI5yULiw8PQp0E/TSSoCgiiEdDzA==",
+    "@ts-defold/types@1.2.74_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2": {
+      "integrity": "sha512-4iKzG3khBZuZng2LblH7K4uQAJlKX7hhXlxg1pNMmNrcqhHiQaEHqBs9idGN1crQ1mNqUbk09OSL9W78NZ1i1Q==",
       "dependencies": [
         "lua-types",
-        "typescript-to-lua@1.31.2_typescript@5.7.2"
+        "typescript-to-lua@1.32.0_typescript@5.8.2"
       ]
     },
     "@typescript-to-lua/language-extensions@1.19.0": {
@@ -167,8 +166,8 @@
         "global-dirs"
       ]
     },
-    "resolve@1.22.10": {
-      "integrity": "sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==",
+    "resolve@1.22.11": {
+      "integrity": "sha512-RfqAvLnMl313r7c9oclB1HhUEAezcpLjz95wFH4LVuhk9JF/r22qmVP9AMmOU4vMX7Q8pN8jwNg/CSpdFnMjTQ==",
       "dependencies": [
         "is-core-module",
         "path-parse",
@@ -179,12 +178,12 @@
     "sax@1.4.1": {
       "integrity": "sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg=="
     },
-    "semver@7.7.2": {
-      "integrity": "sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==",
+    "semver@7.7.3": {
+      "integrity": "sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==",
       "bin": true
     },
-    "source-map@0.7.4": {
-      "integrity": "sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA=="
+    "source-map@0.7.6": {
+      "integrity": "sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ=="
     },
     "string-width@4.2.3": {
       "integrity": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
@@ -203,8 +202,8 @@
     "supports-preserve-symlinks-flag@1.0.0": {
       "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
     },
-    "tapable@2.2.2": {
-      "integrity": "sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg=="
+    "tapable@2.3.0": {
+      "integrity": "sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg=="
     },
     "tr46@0.0.3": {
       "integrity": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw=="
@@ -212,16 +211,16 @@
     "tslib@1.14.1": {
       "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
     },
-    "tstl-export-to-global@1.0.1_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2": {
+    "tstl-export-to-global@1.0.1_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2": {
       "integrity": "sha512-2oNYbiCHuyxGRHi930oGh1IHyDlLsA4DhYsS+FO/YXu11l4J+UPuQ9NZL19lLOluSuKyCWe2PlmBE2k0+3mDpQ==",
       "dependencies": [
-        "typescript-to-lua@1.31.2_typescript@5.7.2"
+        "typescript-to-lua@1.32.0_typescript@5.8.2"
       ]
     },
-    "tstl-trim-extensions@1.0.4_typescript-to-lua@1.31.2__typescript@5.7.2_typescript@5.7.2": {
+    "tstl-trim-extensions@1.0.4_typescript-to-lua@1.32.0__typescript@5.8.2_typescript@5.8.2": {
       "integrity": "sha512-z72H57fPzzTMAjWbCTH/R3LjrT9iJUaPMqPY+sAts7i/oIR6SpptWGa8VK6t9NpKNvRku1SKbDW5/NNcoN5+Qw==",
       "dependencies": [
-        "typescript-to-lua@1.31.2_typescript@5.7.2"
+        "typescript-to-lua@1.32.0_typescript@5.8.2"
       ]
     },
     "typescript-to-lua@0.36.1": {
@@ -229,19 +228,19 @@
       "dependencies": [
         "resolve",
         "source-map",
-        "typescript@5.7.2"
+        "typescript"
       ],
       "bin": true
     },
-    "typescript-to-lua@1.31.2_typescript@5.7.2": {
-      "integrity": "sha512-VvuJOEWAWpejqFrUVN6WhZnsEQKDlUis6wVGkz7MkZPoNbLoiZkMegjE+pWa28dk5Ov2j20TOij+6lt/SZ0wHA==",
+    "typescript-to-lua@1.32.0_typescript@5.8.2": {
+      "integrity": "sha512-RVopoyoYiYJFrv/0Yw6i77lBI9DhNhAGxuq6TV4b3JzCWjabzwUd/yhTCSVKzWiiAs0zj24Mi7iH9biWG6Phjw==",
       "dependencies": [
         "@typescript-to-lua/language-extensions",
         "enhanced-resolve",
         "picomatch",
         "resolve",
         "source-map",
-        "typescript@5.7.2"
+        "typescript"
       ],
       "bin": true
     },
@@ -254,10 +253,6 @@
         "tslib",
         "typescript-to-lua@0.36.1"
       ]
-    },
-    "typescript@5.7.2": {
-      "integrity": "sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==",
-      "bin": true
     },
     "typescript@5.8.2": {
       "integrity": "sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==",
@@ -315,11 +310,11 @@
       "dependencies": [
         "npm:@ts-defold/library@~0.1.1",
         "npm:@ts-defold/tstl-userdata-sugar@^1.0.1",
-        "npm:@ts-defold/types@^1.2.68",
+        "npm:@ts-defold/types@^1.2.74",
         "npm:@typescript-to-lua/language-extensions@^1.19.0",
         "npm:tstl-export-to-global@^1.0.1",
         "npm:tstl-trim-extensions@^1.0.3",
-        "npm:typescript-to-lua@^1.31.2",
+        "npm:typescript-to-lua@1.32",
         "npm:typescript-tstl-plugin@~0.3.2",
         "npm:typescript@5.8.2"
       ]
