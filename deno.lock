@@ -3,12 +3,11 @@
   "specifiers": {
     "npm:@ts-defold/library@~0.1.1": "0.1.3_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3",
     "npm:@ts-defold/tstl-userdata-sugar@^1.0.1": "1.0.1_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3",
-    "npm:@ts-defold/types@^1.2.74": "1.2.76_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3",
+    "npm:@ts-defold/types@^1.2.77": "1.2.77_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3",
     "npm:@typescript-to-lua/language-extensions@^1.19.0": "1.19.0",
     "npm:tstl-export-to-global@^1.0.1": "1.0.1_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3",
     "npm:tstl-trim-extensions@^1.0.3": "1.0.4_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3",
     "npm:typescript-to-lua@1.33": "1.33.0_typescript@5.9.3",
-    "npm:typescript-to-lua@1.33.0": "1.33.0_typescript@5.9.3",
     "npm:typescript-tstl-plugin@~0.3.2": "0.3.2",
     "npm:typescript@5.9.3": "5.9.3"
   },
@@ -32,8 +31,8 @@
         "typescript-to-lua@1.33.0_typescript@5.9.3"
       ]
     },
-    "@ts-defold/types@1.2.76_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3": {
-      "integrity": "sha512-kHrP4p8td/uBC4tOUKBTiaXqbn5+VwdQ0UFkLxbnPz8NXZP7mbscuZa3+3DjDTb5mvKyJ/0/QFZF3rljxfeRnw==",
+    "@ts-defold/types@1.2.77_typescript-to-lua@1.33.0__typescript@5.9.3_typescript@5.9.3": {
+      "integrity": "sha512-AfBoEuWdvdgYIkzjU9LmuYPVd9nguFgba7pMMS2Vrrtz+Q6m7W6v846V2PGWJ5Q2MJb7eOdlnOrsFe1ImMpZ+w==",
       "dependencies": [
         "lua-types",
         "typescript-to-lua@1.33.0_typescript@5.9.3"
@@ -310,7 +309,7 @@
       "dependencies": [
         "npm:@ts-defold/library@~0.1.1",
         "npm:@ts-defold/tstl-userdata-sugar@^1.0.1",
-        "npm:@ts-defold/types@^1.2.74",
+        "npm:@ts-defold/types@^1.2.77",
         "npm:@typescript-to-lua/language-extensions@^1.19.0",
         "npm:tstl-export-to-global@^1.0.1",
         "npm:tstl-trim-extensions@^1.0.3",
